@@ -1,0 +1,74 @@
+.form-control {
+    border-color: #9d9ea0 !important;
+}
+.form-select {
+    border-color: #9d9ea0 !important;
+}
+.pd-b-10{
+	padding-bottom: 1.25rem;
+}
+
+.mr-b-10{
+	padding-bottom: 1.25rem;
+}
+i{
+	font-weight: 600 !important;
+}
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: #dd3545 !important;
+}
+.error{
+    border-color: #dd3545 !important;
+    color: #dd3545 !important;
+}
+
+li.slide.has-sub.active {
+    background: #ffffff !important;
+}
+
+.form-check-input[type=radio] {
+    border-color: #9d9ea0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+
+.signinlogo{
+    width: 170px;
+}
+  
+input[type="text"],
+input[type="number"] {
+    min-width: 95px;
+}
+}
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.ri-file-pdf-line{
+    color:#ff0000c7;
+}
+th.sorting::after,
+th.sorting_asc::after,
+th.sorting_desc::after,
+th.sorting_asc::before,
+th.sorting_desc::before,
+th.sorting_disabled::after {
+    display: none !important;
+}
+
+ 
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: var(--default-text-color) !important;
+    line-height: 2.33rem !important;
+    border: 1px solid #9d9ea0 !important;
+    border-radius: .5rem !important;
+}
