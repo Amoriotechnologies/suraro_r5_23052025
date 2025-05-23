@@ -131,7 +131,7 @@ $isViewMode = strpos($_SERVER['REQUEST_URI'], 'view_expense') !== false;
                                             </div>
                                             <div class="mb-3">
                                                 <label for="remarks" class="form-label">Notes</label>
-                                                <textarea class="form-control text-number-only" id="remarks" rows="3" placeholder="Enter Notes here..." maxlength="150"></textarea>
+                                                <textarea class="form-control text-number-only" id="remarks" rows="3" placeholder="Enter Notes here..." maxlength="1000"></textarea>
                                             </div>
                                         </div>
                                         <div style="text-align:center;" class="col-md-4 col-sm-12 text-center">

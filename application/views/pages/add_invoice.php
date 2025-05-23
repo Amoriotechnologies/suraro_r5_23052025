@@ -274,7 +274,7 @@ if (!empty($invoicedata)) {
                                             </div>
                                              <div class="mb-3">
                                                 <label for="remarks" class="form-label">Notes</label>
-                                                <textarea class="form-control text-number-only" id="remarks" rows="3" placeholder="Enter Notes here..." maxlength="150"></textarea>
+                                                <textarea class="form-control text-number-only" id="remarks" rows="3" placeholder="Enter Notes here..." maxlength="1000"></textarea>
                                             </div>
                                         </div>
                                         <div style="text-align:center;" class="col-md-4 col-sm-12 text-center">
@@ -596,11 +596,7 @@ $(document).ready(function() {
                     toHighlight.push($qty);
                 }
                 let gstornongst = $('input[name="bill_type"]:checked').val();
-                if (gstornongst !== "Non-GST" && (gst <= 0) && (billType == "Exclusive GST" || billType ==
-                        "Inclusive GST")) {
-                    errors.push(`Row ${i+1}: GST must be greater than 0`);
-                    toHighlight.push($gst);
-                }
+                
             });
             // 2) if any errors, show all toasts then prevent submit
             if (errors.length) {

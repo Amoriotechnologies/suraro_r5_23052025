@@ -37,44 +37,7 @@
          </div>
       </div>
       <!-- Page Header Close -->
-      <div class="row">
-         <h1 class="page-title fw-semibold text-center fs-18 mb-3"><span class="badge bg-primary fs-6">&emsp;<i class="bx bx-shape-circle"></i> Overall&emsp;</span></h1>
-         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-            <div class="card custom-card">
-               <div class="card-body">
-                  <div class="row">
-                     <div class="col-6 pe-0">
-                        <p class="mb-2">
-                           <span class="fs-13">Overall Sales</span>
-                        </p>
-                        <p class="mb-2 fs-25 fw-semibold lh-1 vertical-bottom tot_sales"> ₹0 </p>
-                     </div>
-                     <div class="col-6">
-                        <i class="bx bx-archive-out text-success fs-1 main-card-icon"></i>
-                     </div>
-                  </div>
-                  <p class="readmore w-25 text-info" onclick="cmpySelection('sales', 0)"> Show Details <i class="ti ti-chevron-right ms-1"></i></p>
-               </div>
-            </div>
-         </div>
-         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-            <div class="card custom-card">
-               <div class="card-body">
-                  <div class="row">
-                     <div class="col-6 pe-0">
-                        <p class="mb-2 fs-5"> Overall Expense </p>
-                        <p class="mb-2 fs-25 fw-semibold lh-1 vertical-bottom tot_expense"> ₹0 </p>
-                     </div>
-                     <div class="col-6">
-                        <i class="bx bx-archive-in text-warning fs-1 main-card-icon"></i>
-                     </div>
-                  </div>
-                  <p class="readmore w-25 text-info" onclick="cmpySelection('expense', 0)"> Show Details <i class="ti ti-chevron-right ms-1"></i></p>
-               </div>
-            </div>
-         </div>
-         <hr>
-      </div>
+   
       <?php
          if(!empty($cmpys)) { 
             $cmpycnt = count($cmpys);
